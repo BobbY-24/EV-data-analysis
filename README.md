@@ -1,44 +1,42 @@
 # Electric Vehicle Population Data Analysis
 
 ## Overview
-This project explores electric vehicle population data with data cleaning, exploratory analysis, visualization, and initial modeling steps. It focuses on EV adoption patterns, geographic distribution, and vehicle characteristics. The project is best framed as an applied data analysis notebook.
+I analyzed electric vehicle population data to explore adoption patterns, geographic distribution, and vehicle characteristics. I treat the project as mainly an exploratory data analysis notebook with cleaning, visualization, and early modeling preparation.
 
 ## Motivation
-Electric vehicle adoption is a meaningful public data topic involving technology, infrastructure, policy, and consumer behavior. This project demonstrates cleaning a real-world dataset, asking practical data questions, and communicating trends visually.
+I chose this dataset because EV adoption connects technology, infrastructure, policy, and consumer behavior. I wanted to practice cleaning a real public dataset and turning it into interpretable summaries.
 
 ## Dataset
 - **Source:** Electric Vehicle Population dataset.
 - **File:** `data/Electric_Vehicle_Population_Data.csv.zip`
-- **Target variable:** Not applicable for the current EDA-focused version.
+- **Target variable:** I did not define a supervised target for this version.
 - **Important features:** vehicle make/model, model year, EV type, electric range, location fields, and policy/geographic identifiers.
-- **Dataset size:** TODO: add dataset size after rerunning notebook.
-- **Known limitations:** Data may reflect reporting practices and regional policy differences rather than complete EV adoption behavior.
+- **Known limitations:** The data reflects reporting practices and regional policy differences, so I treat the analysis as descriptive.
 
 ## Methods
-- Loaded and cleaned the EV population dataset.
-- Performed exploratory data analysis.
-- Visualized adoption trends and vehicle attributes.
-- Started feature scaling and modeling-oriented preparation.
+- I loaded and cleaned the EV population dataset.
+- I explored vehicle attributes and adoption patterns.
+- I created visual summaries of the data.
+- I prepared some modeling-oriented transformations, but I do not make predictive claims from them.
 
 ## Results
-TODO: add metric after rerunning notebook.
+I use this notebook for exploratory findings rather than a single headline metric. The main output is a clearer view of EV adoption patterns and data quality issues.
 
 ## Key Insights
-- TODO: add insight after rerunning notebook.
-- TODO: add insight after rerunning notebook.
-- TODO: add insight after rerunning notebook.
+- EV adoption analysis depends heavily on geography and reporting coverage.
+- Vehicle model year, make, and EV type are useful starting points for understanding the dataset.
+- I need a sharper prediction target before treating this as a modeling project.
 
 ## Limitations
-- The project is mostly exploratory and does not make causal claims.
-- The dataset is zipped and may need extraction before running the notebook.
-- Regional patterns may reflect data availability and policy reporting.
-- Modeling steps need clearer target definition before predictive claims are made.
+- I do not make causal claims about EV adoption.
+- The zipped dataset needs to be extracted before running the notebook.
+- Some geographic analysis depends on optional external map files.
 
 ## Future Improvements
 - Add a clear research question around EV adoption.
-- Add geographic visualizations if location fields are reliable.
-- Define a predictive target only if it is meaningful.
-- Add cleaned summary tables in `results/`.
+- Add geographic visualizations if location files are available.
+- Define a meaningful predictive target before adding modeling claims.
+- Save cleaned summary tables in `results/`.
 
 ## How to Run
 ```bash
